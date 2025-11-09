@@ -14,8 +14,10 @@ if (localStorage.getItem("vegMenu")) {
   vegMenu = JSON.parse(localStorage.getItem("vegMenu"));
 } else {
   vegMenu = [
-    { dishName: "Paneer Butter Masala", category: "Main Course", price: 180, description: "Soft paneer cubes in creamy tomato gravy.", id: "1" },
-    { dishName: "Veg Biryani", category: "Rice", price: 150, description: "Fragrant basmati rice cooked with mixed vegetables and spices.", id: "2" },
+    { dishName: "Veg Manchurian",category: "Starter" price: 130,description: "Fried veggie balls tossed in spicy Indo-Chinese sauce." id :"1" },
+    { dishName: "Paneer Butter Masala", category: "Main Course", price: 180, description: "Soft paneer cubes in creamy tomato gravy.", id: "2" },
+    { dishName: "Tomato Soup",category: "Soup",price: 90, description: "Fresh tomato soup with herbs and a hint of cream.  id: "3"},
+    { dishName: "Veg Biryani", category: "Rice", price: 150, description: "Fragrant basmati rice cooked with mixed vegetables and spices.", id: "4" },
   ];
 }
 cl(vegMenu);
@@ -127,3 +129,4 @@ const onUpdate = () => {
 
 dishForm.addEventListener("submit", onSubmit);
 updateDishBtn.addEventListener("click", onUpdate);
+
