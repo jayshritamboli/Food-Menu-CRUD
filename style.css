@@ -1,0 +1,18 @@
+
+
+body {
+  background: url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  height:100vh;
+  
+}
+.card{
+
+  opacity: 0.9;
+}
+
+
+
